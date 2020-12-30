@@ -1,0 +1,73 @@
+@media only screen and (max-width:1024px) {
+    .collection .collection-content .collection-cart {
+        margin-bottom: 32px;
+    }
+    .sub-heading .sub-content {
+        margin-top: 32px;
+    }
+    .grid-item,
+    .grid-sizer {
+        width: 48%;
+    }
+    .grid-item--width2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    section {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-bottom: 0 !important;
+    }
+    .navbar {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .dropdown-menu {
+        background-color: #333;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .home-banner {
+        padding: 32px;
+    }
+    .carosul-con {
+        padding: 0 16px;
+    }
+    .collection .collection-content .collection-cart {
+        margin-top: 32px;
+    }
+    .grid-item,
+    .grid-sizer,
+    .grid-item--width2 {
+        width: 100%;
+    }
+    .contact .contact-title {
+        display: flex;
+    }
+    .service .service-card {
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .home-banner .home-banner-slider-cell .carousel-title h2 {
+        font-size: 38px;
+    }
+    .home-banner .home-banner-slider-cell .carousel-content {
+        padding: 0;
+    }
+    .home-banner .home-banner-slider-cell .carousel-content p {
+        font-size: 12px;
+    }
+    .gallery .img-viewer {
+        padding: 128px 16PX;
+        width: 100%;
+    }
+    .team .team-mem .mem-img img {
+        width: 250px;
+        height: 250px;
+    }
+}
