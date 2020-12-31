@@ -481,6 +481,10 @@ footer {
 
 /* start map */
 
+.map {
+    padding: 0;
+}
+
 .map .map-container iframe {
     width: 100% !important;
 }
@@ -575,12 +579,12 @@ footer .links .links-content ul li a:hover {
 
 /* start about banner */
 
-.about-banner {
+.banner {
     padding: 0 !important;
     margin-bottom: 48px;
 }
 
-.about-banner-inner {
+.banner-inner {
     position: relative;
     height: 300px;
     background-image: url("../images/about/banner/banner2.jpg");
@@ -596,7 +600,7 @@ footer .links .links-content ul li a:hover {
     object-fit: cover;
 } */
 
-.about-banner-inner .banner-overlay {
+.banner-inner .banner-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -816,3 +820,212 @@ footer .links .links-content ul li a:hover {
 
 
 /* end about */
+
+
+/* start blog */
+
+
+/* start posts */
+
+.post-header {
+    font-size: 14px;
+    margin: 8px 0 16px;
+    color: #888;
+}
+
+.post-header>span {
+    margin: 0 4px;
+}
+
+.blog-post {
+    margin-bottom: 64px;
+}
+
+.blog-post:last-of-type {
+    margin-bottom: 40px;
+}
+
+.blog-post .card-title a {
+    font-size: 24px;
+    color: #343a40;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.blog-post .card-title:hover a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.blog-post .card-text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+}
+
+.blog-post .btn {
+    background-color: #45d5c0;
+    font-size: 14px;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.blog-post .btn:hover {
+    background-color: #6addcd;
+}
+
+.blog-post .card-footer {
+    color: #6c757d !important;
+    font-size: 14px;
+}
+
+.blog-title {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.blog-title:after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.blog-title h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #3d3e3e;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pagination li {
+    margin: 0 4px;
+}
+
+.pagination li:first-of-type {
+    margin-inline-start: 0;
+}
+
+.pagination a,
+.pagination a:hover {
+    color: #555;
+    font-size: 14px;
+}
+
+aside .gray-block {
+    padding: 40px;
+    background-color: #f5f5f5;
+    margin-bottom: 16px;
+}
+
+aside .subscribe .sub-title {
+    margin: 16px 0;
+}
+
+aside .top-story .sub-title,
+aside .list-g .g-title {
+    color: #0e0f10;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+aside .subscribe .sub-form input {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 12px 15px;
+    font-size: 13px;
+    color: #777;
+    background: #ffffff;
+    letter-spacing: 1px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+aside .subscribe .sub-form .btn-black {
+    padding: 12px 20px !important;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0d0e10;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    text-transform: uppercase;
+}
+
+aside .subscribe .sub-form .btn-black:hover {
+    opacity: .8;
+}
+
+
+/* end posts */
+
+
+/* start aside */
+
+.stories .story {
+    margin-bottom: 16px;
+}
+
+.stories .story:last-of-type {
+    margin-bottom: 0;
+}
+
+.stories .top-text {
+    font-size: 15px;
+    color: #444;
+}
+
+.stories .top-img {
+    background-color: #fff;
+}
+
+aside .list-g .list .card-header {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+
+/* end aside */
+
+
+/* end blog */
