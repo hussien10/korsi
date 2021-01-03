@@ -42,9 +42,18 @@ $(document).ready(function() {
 
     // up button
     $(".up").on("click", function(e) {
-        e.preventDefault();
-        $("body,html").animate({
-            scrollTop: 0
-        }, 1000)
+            e.preventDefault();
+            $("body,html").animate({
+                scrollTop: 0
+            }, 1000)
+        })
+        // single product slider
+    var def = $(".item-thumps>div").eq(1).find("img").attr("src")
+    $(".item-slider img").attr("src", def)
+    $(".item-thumps>div").on("click", function() {
+        var thump = $(this).find("img").attr("src")
+        $(".item-slider img").attr("src", thump)
     })
+
+
 })
